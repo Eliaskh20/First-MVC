@@ -1,0 +1,54 @@
+  /* تنسيق الجدول */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* تنسيق أزرار التحرير والحذف */
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* تنسيق أزرار التحرير والحذف */
+  .button-container {
+    text-align: center;
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .edit-btn:hover, .delete-btn:hover {
+    background-color: #fff;
+    color: #4CAF50;
+    box-shadow: 0px 0px 5px #4CAF50;
+  }
+  
